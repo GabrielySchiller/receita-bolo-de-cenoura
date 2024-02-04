@@ -1,0 +1,99 @@
+body{
+    background-color: #fac98c;
+}
+
+
+.conteiner{
+    background-color: #ffa639;
+    border: #2e1503 solid 3px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    border-radius: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.conteiner .imagem {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 30px;
+    
+    
+    
+}
+
+.conteiner .titulo{
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color:#2e1503;
+    
+
+}
+
+.conteiner .introducao{
+    display: flex;
+    justify-content: center;
+    font-size:25px ;
+    padding: 0px;
+}
+
+.conteiner .ingredientes-titulo{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.conteiner .ingredientes{
+   font-size: 20px;
+   margin-left: 55px;
+   
+}
+
+.conteiner .cobertura-titulo{
+    margin-left: 50px;
+    font-size:20px ;
+}
+
+.conteiner .ingredientes-cobertura{
+    font-size: 20px;
+   margin-left: 55px;
+
+}
+
+.conteiner .instrucoes-titulo{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.conteiner .instrucoes-massa{
+    font-size: 20px;
+   word-wrap: break-word;
+   margin-left: 55px;
+   margin-right: 55px;
+   
+}
+
+.conteiner .instrucoes-cobertura{
+    font-size: 20px;
+    word-wrap: break-word;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 55px;
+}
+
+.rodape{
+    display: flex;
+    background-color: #2e1503;
+    padding: 24px ;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 15px;
+    border: 3px #ffa639 solid;
+    box-shadow: 0px 0px 10px #ffa639, 0px 0px 10px #ffa639;
+}
